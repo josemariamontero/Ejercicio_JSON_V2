@@ -21,3 +21,6 @@ for i in doc:
 
 if not indicador:
 	print("No hay peliculas entre las fechas dadas")
+
+#1968-04-10
+#1999-12-25
