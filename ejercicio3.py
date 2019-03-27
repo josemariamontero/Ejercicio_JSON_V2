@@ -11,6 +11,6 @@ for i in doc:
 	sinopsis = i["storyline"]
 	if cadena in sinopsis and cadena2 in sinopsis:
 		indicador = True
-		print (sinopsis)
+		print (i["title"])
 if not indicador:
 	print ("No existe ninguna sinopsis con esa cadena dada")
